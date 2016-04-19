@@ -273,7 +273,7 @@ To track Standard Events from the server side just call the `tracker` method in 
 ```ruby
   def show
     tracker do |t|
-      t.facebook :track, { type: 'Purchase', options: { value: 100, currency: 'USD' } }
+      t.facebook_pixel2 :track, { type: 'Purchase', options: { value: 100, currency: 'USD' } }
     end
   end
 ```
