@@ -262,7 +262,7 @@ First, add the following to your config:
 
 ```ruby
   config.middleware.use(Rack::Tracker) do
-    handler :facebook, { id: 'PIXEL_ID' }
+    handler :facebook_pixel_2, { id: 'PIXEL_ID' }
   end
 ```
 
